@@ -150,9 +150,9 @@ img {
 }
 
 .text {
-  margin: 0 auto;
   max-height: 25vh;
   overflow: scroll;
+  align-self: center;
 }
 
 @media screen and (min-width: 700px){
@@ -188,7 +188,7 @@ img {
     grid-column: 3 / span 2;
   }
 
-  .clients, .contact, .about-image, and .method-image {
+  .clients, .contact, .about-image, .method-image {
     grid-column: 2 / span 2;
   }
 
